@@ -37,7 +37,7 @@ function turn1() {
     choice1.style.display = "none"
     choice2.style.display = "block"
     img2.style.display = "block"
-    
+
 };
 function turn2() {
     img2.style.display = "none"
@@ -48,7 +48,7 @@ function turn2() {
     storeend.style.display = "block"
 };
 //Store Ending//
-function Store24() { 
+function Store24() {
     img3.style.display = "none"
     baseend.style.display = "none"
     sleepend.style.display = "none"
@@ -57,20 +57,20 @@ function Store24() {
     kill.style.display = "block"
     buy.style.display = "block"
 };
-function BuyP(){
+function BuyP() {
     img12.style.display = "none"
     kill.style.display = "none"
     buy.style.display = "none"
     img14.style.display = "block"
 };
-function KillP(){
+function KillP() {
     img12.style.display = "none"
     kill.style.display = "none"
     buy.style.display = "none"
     img13.style.display = "block"
 };
 //Sleep ending//
-function SleepEnd() { 
+function SleepEnd() {
     img3.style.display = "none"
     img9.style.display = "block"
     baseend.style.display = "none"
@@ -78,13 +78,13 @@ function SleepEnd() {
     storeend.style.display = "none"
     sleep.style.display = "block"
 };
-function Sleep1(){
+function Sleep1() {
     img9.style.display = "none"
     sleep.style.display = "none"
     img11.style.display = "block"
 };
 //basement//
-function BaseEnd() { 
+function BaseEnd() {
     img3.style.display = "none"
     img4.style.display = "block"
     baseend.style.display = "none"
@@ -109,13 +109,13 @@ function basement2() {
     ratpunch.style.display = "block"
 
 };
-function RatKick(){
+function RatKick() {
     img7.style.display = "block"
     img6.style.display = "none"
     ratkick.style.display = "none"
     ratpunch.style.display = "none"
 };
-function RatPunch(){
+function RatPunch() {
     img8.style.display = "block"
     img6.style.display = "none"
     ratkick.style.display = "none"
